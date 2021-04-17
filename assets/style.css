@@ -59,6 +59,24 @@ main>article>ul>li>p
 /* 3) STYLISER LES DIFFERENTS ÉLÉMENTS RACINE DE LA PAGE */
 /* EN PARTANT DU HAUT VERS LE BAS */
 /*** HEADER ***/
+body>header{}
+body>header{display:flex;justify-content: space-between;}
+/* header>img{} */
+/* header>h1{} */
+body>header>menu{display:flex;list-style:none;}
+body>header>menu>li{}
+body>header>menu>li>a{padding: 1em;display:block;height:100%;text-decoration:none;}
+body>header>menu>li.active>a{color:var(--gris);}
+body>header>menu>li.active>a:hover{color:var(--bleuClair);}
+
+
+
+/*  */
+/*  */
+/*  */
+
+
+
 /*** NAV ***/
 /*** MAIN ***/
 /*** ASIDE ***/
