@@ -12,3 +12,54 @@
 
 
 
+/* 1) VARIABLES DE LA CHARTE GRAPHIQUE P2 */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@503&display=swap');
+:root{
+    --bleu: #0065FC;
+    --bleuClair: #DEEBFF;
+    --gris: #F2F2F2;
+    font-family: Raleway;
+}
+
+
+
+/*  */
+/*  */
+/*  */
+
+
+
+/* 2) APPLIQUER LA CHARTE GRAPHIQUE SUR LES ÉLÉMENTS HTML */
+/* bleu */
+body>header>menu,
+body>nav>div>input[type="submit"],
+body>nav>ul>li>i,
+body>nav>p>i,
+li>div.star
+{color:var(--bleu)}
+body>nav>ul>li>i{background:var(--bleu)}
+/* bleu clair */
+
+/* gris */
+body>nav>ul>li{border: solid var(--gris);}
+body>nav>div>i{background:var(--gris);}
+body>nav>p,
+main>article>ul>li>p
+{color:var(--gris);}
+/* silver */
+.active{color:silver;}
+
+
+
+/*  */
+/*  */
+/*  */
+
+
+/* 3) STYLISER LES DIFFERENTS ÉLÉMENTS RACINE DE LA PAGE */
+/* EN PARTANT DU HAUT VERS LE BAS */
+/*** HEADER ***/
+/*** NAV ***/
+/*** MAIN ***/
+/*** ASIDE ***/
+/*** FOOTER ***/
